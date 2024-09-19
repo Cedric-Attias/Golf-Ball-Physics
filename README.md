@@ -1,12 +1,14 @@
 # Project 1:  High-Speed Impact Modelling
 
-Associated files: ball_bounce_dynamics.m, ball_bounce_paramID
+Associated files: ball_bounce_dynamics.m, ball_bounce_paramID.m
 
 The purpose of my project was to investigate the various properties of golf balls, such as angular velocities and coefficients of restitution, when struck off a rigid plate at extreme angles. I conducted tests by hitting golf balls at both very shallow and very oblique angles, collecting data on their reactions to these different parameters. This report delves into the coefficients of restitution for the golf balls at various angles, along with the inbound and outbound velocities and spins.
 
 After collecting the experimental data, I was able to input the data into different models to simulate ideal coefficients of friction and outbound spins. This project provided valuable insights into the physical properties of golf balls and highlighted various modeling techniques. I observed that the coefficient of restitution generally ranged between 0.777 and 0.896. A notable trend was that as the tangential velocity of the ball increased, so did its coefficient of restitution. The model that accounted for slipping yielded the best simulated outbound spins, showing the smallest mean average error, while the rolling model produced the least accurate results. Additionally, I found that higher tangential velocities also correlated with increased outbound spins, a trend that was consistent in both the experimental and simulated data.
 
-#Projecy 2: Golf Trajectory Measurements and Simulation
+# Projec2 2: Golf Trajectory Measurements and Simulation
+
+Associated files: golf_eqns_2.m, golf_eqns_3.m, part1.m, part2.m, part3.m, part4.m
 
 The main purpose of my project was to explore the various variables and parameters involved in modeling and measuring golf ball trajectory. I focused on key factors such as ball speed, elevation, backspin, and sidespin. Additionally, I examined several aerodynamic values and coefficients that can be applied within different models to better simulate how a golf ball flies when struck. My project compared the accuracy of these models against results obtained from an official golf simulator. The models included parameters that could be adjusted, such as static and dynamic aerodynamic coefficients, as well as air density. This investigation also aimed to provide deeper insights into how these parameters influence golf ball trajectory.
 
